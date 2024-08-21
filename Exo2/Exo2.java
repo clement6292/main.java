@@ -1,67 +1,66 @@
-
 public class Exo2{
-public static void main(String[] args){
+  // public static int addOne(int el){
+  //   return el+=1;
+  // }
+  public static void main(String[] args){
+    // int x = 15;
+    // Byte i = 0;
+    // while(i<= x){
+    //   String etoile =(i>1)?"etoiles":"etoile";
+    //   System.out.println("codeur à " + i +" "+ etoile);
+    //   i++;
+    // }
 
-// Exo1
-int X = 35;
-String z=(X % 2 == 0)?" le nombre "+ X +" est paire ":" le nombre "+ X +" est impaire ";
-System.out.println(z);
+//       byte i=0;
+//     do{
+// System.out.println("bonjour");
+// i++;
+//     }while(i<5);
+//   }
 
 
 
 
-// Exo 2
-int x = 1;
-int y = 5;
-int z = 20;
-if((x>y) && (x>z)){
-    System.out.println("le plus grand nombre est" +  x ); 
-}else if((y>x) && (y>z)){
-  System.out.println("le plus grand nombre est" +  y );
-  }else if((z>x) && (z>y)){
- System.out.println("le plus grand nombre est" +  z );
-}else{
-    System.out.println("deux ou trois d'entres les nombres sont egaux");
+// int x = 5;
+// for(int i = 0; i < x; i = addOne(i)){
+//   if(i==3){
+// continue;
+// }
+// System.out.println("la valeur de " +i);
+
+// }
+
+
+
+//Exo1
+// for(int i=0;i<=20;i=i+2){
+//  System.out.println(i);
+// }
+
+// for(int i=0;i<=20;i++){
+//   if(i%2==0){
+//     System.out.println(i);
+
+//   }
+// }
+
+
+//Exo2
+// int x = 1;
+// int i = 0;
+// while(i<=10){
+//   int result = i+=x;
+// System.out.println(result);
+// }
+
+int somme = 0;
+int i = 0;
+
+while(i<=10){
+  somme= somme+i;
+  System.out.println(somme);
+  i++;
+
 }
-  
-
-
-  //Exo 3
-
-  int age = 5;
- if(0<=age && age<=12){
-System.out.println("Enfant");
-  }else if(13<=age && age<=19){
-System.out.println("Adolescent");
-  }else if(20<=age && age<=64){
-System.out.println("Adulte");
-  }else{
-System.out.println("Senior");
-  }
-
-//Exo 4
-int note =25;
-String z =(note>=50)?"Echoué":"Reussi";
-System.out.println(z);
-
-//Exo 5
-
-int montant = 500;
-int remise =0;
-if(montant>500){
-  remise = (montant*20)/100;
-  montant = montant-remise;
-  System.out.println(montant);
-}else if(montant>=100){
-remise = (montant*10)/100;
-montant=montant-remise;
-System.out.println(montant);
-}else{
-System.out.println(montant);
 }
-
-
-}    
 }
-
-
