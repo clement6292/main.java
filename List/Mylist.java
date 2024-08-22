@@ -49,13 +49,13 @@ public class Mylist{
 
 
     //Exo5:Supprimer les doublons d'un tableau
-    // int[] doublons={1, 2, 2, 3, 4, 4, 5};
-    // Set<Integer> uniqueVal = new HashSet<>();
-    // for(int item : doublons){
-    //     uniqueVal.add(item);
-    // }
-    // // System.out.println(doublons);
-    // System.out.println("le tableau des valeurs unique est " + uniqueVal);
+    int[] doublons={1, 2, 2, 3, 4, 4, 5};
+    Set<Integer> uniqueVal = new HashSet<>();
+    for(int item : doublons){
+        uniqueVal.add(item);
+    }
+    // System.out.println(doublons);
+    System.out.println("le tableau des valeurs unique est " + uniqueVal);
    
     }
 }
