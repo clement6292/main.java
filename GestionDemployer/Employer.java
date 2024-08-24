@@ -61,18 +61,16 @@ public class Employer{
 
   System.out.println("Entrez votre salaire");
   double salaire = scan.nextDouble();
-  // employer.setSalaire(scan.nextDouble());
-  
-  // int id  = employer.getId();
-  // String name = employer.getNom();
-  // String poste = employer.getPoste();
-  // double salaire  = employer.getSalaire();
   employer.setId(id);
   employer.setNom(nom);
+  employer.setPoste(poste);
+  employer.setSalaire(salaire);
   Employers.add(employer);
   for (Employer emp : Employers) {
       System.out.println(emp.getId());
       System.out.println(emp.getNom());
+      System.out.println(emp.getPoste());
+      System.out.println(emp.getSalaire());
   }
   System.out.println(Employers);
 
